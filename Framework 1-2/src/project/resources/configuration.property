@@ -1,0 +1,6 @@
+browser=chrome
+lang=en-US
+url=https://kinopoisk.ru
+log_config=src/project/resources/log.properties
+implicitlyWait=5
+explicitlyWait=10
