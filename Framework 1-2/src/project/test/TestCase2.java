@@ -6,12 +6,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import project.pageObject.MainPage;
 
+import java.io.UnsupportedEncodingException;
+
 public class TestCase2 extends Base {
 
     private static final int INDEX_TAB = 1;
 
     @Test
-    public void testCase2() {
+    public void testCase2() throws UnsupportedEncodingException {
         MainPage mainPage = new MainPage();
         Assert.assertTrue(mainPage.IsMainPageOpened(), "Main page did not opened");
         mainPage.vk.click();

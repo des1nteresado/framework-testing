@@ -6,10 +6,12 @@ import org.testng.annotations.Test;
 import project.pageObject.MainPage;
 import project.pageObject.SearchResultPage;
 
+import java.io.UnsupportedEncodingException;
+
 public class TestCase5 extends Base {
 
     @Test
-    public void testCase5() {
+    public void testCase5() throws UnsupportedEncodingException {
         MainPage mainPage = new MainPage();
         Assert.assertTrue(mainPage.IsMainPageOpened(), "Main page did not opened");
         mainPage.search.sendKeys("@Фильмы$");

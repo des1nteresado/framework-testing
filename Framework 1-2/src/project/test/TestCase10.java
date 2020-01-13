@@ -6,6 +6,8 @@ import project.pageObject.LoginPage;
 import project.pageObject.MainPage;
 import project.pageObject.TopFilmsPage;
 
+import java.io.UnsupportedEncodingException;
+
 public class TestCase10 extends Base {
 
     @Test

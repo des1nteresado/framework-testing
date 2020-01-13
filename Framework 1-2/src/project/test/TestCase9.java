@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 import project.pageObject.AfishaPage;
 import project.pageObject.MainPage;
 
+import java.io.UnsupportedEncodingException;
+
 public class TestCase9 extends Base {
 
     @Test

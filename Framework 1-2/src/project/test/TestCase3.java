@@ -5,10 +5,12 @@ import org.testng.annotations.Test;
 import project.pageObject.AfishaPage;
 import project.pageObject.MainPage;
 
+import java.io.UnsupportedEncodingException;
+
 public class TestCase3 extends Base {
 
     @Test
-    public void testCase3() {
+    public void testCase3() throws UnsupportedEncodingException {
         MainPage mainPage = new MainPage();
         Assert.assertTrue(mainPage.IsMainPageOpened(), "Main page did not opened");
         mainPage.afisha.click();
